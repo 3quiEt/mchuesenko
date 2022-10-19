@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+
+	background: url("../img/pattern.png"); /* С помощью ../ мы вшли из папки css */
+
+	font-family: Tahoma;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.card {
+	width: 400px;
+	margin: 30px auto ; /* Внешний отступ ; первое значение - сверху и снизу ; второе значение - слева и справа */
+	padding: 20px; /* Внутренний отступ ; если вписать одно значение, то будет считать счто слева, справа, снизу и сверху */
+
+	background: #fff;
+	-webkit-box-shadow: 5px 5px 20px 0px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 5px 5px 20px 0px rgba(34, 60, 80, 0.2);
+	box-shadow: 5px 5px 20px 0px rgba(34, 60, 80, 0.2);
+	border-radius: 10px; /* Тут мы закруглили все углы нашей карточка */
+}
+
+.card-photo {
+	display: block; /* Сделали картинку блочную */
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%; /* Скруглили картинку */
+}
+
+.card-title {
+	font-size: 20px;
+	text-align: center; /* Выровняли текст по центру */
+	margin-top: 1px;
+}
+
+.card-text {
+	font-size: 16px;
+	text-align: center;
+	margin: -10px 0;
+}
+
+.card-subtitle {
+	font-size: 18px;
+}
+
+.card-list {
+	padding-left: 0;
+	list-style-position: inside; /* Переместили маркер */
+	font-size: 16px;
+	margin: -15px 0;
+}
+
+.card-contact {
+	font-size: 16px;
+	margin-top: -10px;
+	margin-bottom: -15px;
+}
+
+.card-contact-link {
+	text-decoration: none;
+}
+
+.card-contact-text {
+	line-height: 7px;
+	text-decoration: none;
+}
